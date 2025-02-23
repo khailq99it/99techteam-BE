@@ -1,0 +1,28 @@
+# Node.js modules
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+tmp/
+temp/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+.env
+*.log
+
+# Yarn related
+.yarn/cache
+.pnp.*

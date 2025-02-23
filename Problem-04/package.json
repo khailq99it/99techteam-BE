@@ -1,0 +1,27 @@
+{
+  "name": "problem-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "jest",
+    "node"
+  ],
+  "author": "Roo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  }
+}
