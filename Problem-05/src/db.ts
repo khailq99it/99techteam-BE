@@ -1,10 +1,13 @@
 import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Initialize database connection
 const dbPromise = (async () => {
   const db = await open({
-    filename: 'mydb.sqlite',
+    filename: process.env.DATABASE_URL || 'mydb.sqlite',
     driver: sqlite3.Database
   });
   await db.exec('PRAGMA foreign_keys = ON;');

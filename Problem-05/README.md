@@ -21,8 +21,8 @@ This project is a backend server developed with ExpressJS and TypeScript, provid
 1.  Create a `.env` file in the root directory.
 2.  Configure the following environment variables:
 
-    *   `PORT`: The port the server will run on (default: 3001)
-    *   `DATABASE_URL`: The URL for the database connection
+    *   `PORT`: The port the server will run on (default: 3000)
+    *   `DATABASE_URL`: The URL for the database connection (default: mydb.sqlite)
 
 ## Running the Application
 
@@ -32,7 +32,7 @@ This project is a backend server developed with ExpressJS and TypeScript, provid
     yarn run dev
     ```
 
-    This will start the Express app on port 3001.
+    This will start the Express app on port 3000.
 
 ## API Endpoints
 

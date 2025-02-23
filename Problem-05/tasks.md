@@ -47,6 +47,9 @@ This project involves developing a backend server with ExpressJS and TypeScript,
 11. **Update Tests** (Done)
     *   [x] Update tests for paging functionality in getAllItems
 
+12. **Configuration** (Done)
+    *   [x] Implement configuration using .env file, including DATABASE_URL
+
 ### Task Status:
 
 *   To-do: Task is not started yet.
