@@ -1,4 +1,5 @@
-This project contains solutions to three different problems:
+This project contains solutions to three different problems.
+Go to each problem's folder for more details.
 
 ## Problem 4: Three Ways to Sum to n
 
